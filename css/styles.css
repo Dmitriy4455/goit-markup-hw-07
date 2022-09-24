@@ -398,7 +398,7 @@ img {
     border-radius: 4px; 
     gap: 30px;
 }
-.button-customer {
+.button__customer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -409,21 +409,21 @@ img {
     border-radius: 4px;
     transition: border var(--hover-timing);
 }
-.button-icon {
+.button__icon {
     width: 106px;
     height: 60px;
     fill: #AFB1B8;
     transition: fill var(--hover-timing), border var(--hover-timing);
 }
 
-.button-customer:hover .button-icon,
-.button-customer:focus .button-icon {
+.button__customer:hover .button__icon,
+.button__customer:focus .button__icon {
     fill: var(--accent-color);
 }
 
 
-.button-customer:hover,
-.button-customer:focus {
+.button__customer:hover,
+.button__customer:focus {
     border: 1px solid var(--accent-color);
 }
 .section-works {
