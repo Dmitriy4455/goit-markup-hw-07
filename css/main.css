@@ -181,12 +181,10 @@ img {
   -ms-flex-item-align: center;
       align-self: center;
 }
-
 .nav__item:not(:last-child) {
   margin-right: 50px;
 }
-
-.nav.nav_link {
+.nav__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -205,21 +203,17 @@ img {
   -webkit-transition: color var(--hover-timing);
   transition: color var(--hover-timing);
 }
-
-.nav__link:hover,
-.nav__link:focus {
+.nav__link:hover, .nav__link:focus {
   color: var(--accent-color);
 }
-
-.nav__ link.current {
+.nav__link.current {
   color: var(--accent-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   text-decoration: none;
 }
-
-.current::after {
+.nav .current::after {
   position: absolute;
   content: "";
   display: block;
